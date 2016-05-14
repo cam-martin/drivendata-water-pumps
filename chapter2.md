@@ -265,6 +265,13 @@ test$install_3 <- as.factor(test$install_3)
 
 *** =sct
 ```{r,eval=FALSE}
+# I forgot the variable name for the status of the well and I put train$status instead of train$status_group. When I  
+# submitted my answer I was not given an error. I tried looking through the datset train for a variable 'status' and 
+# couldn't #find one, but when I ran just train$status it gave output just like the train$status_group. This was more of a
+# curious #observation. I assumed it came from the pec but wasn't sure. Just wanted to point it out here that the scts did't
+# necessarily find the discrepancy in the instructions to make the tables. I tried attach(train) and then table(install_3,
+# stauts) as a way to test the different was to solve to exercise, but I got an error in the console 'Error: object 'status' # not found'. Wondering if attach() doesn't work the same bc of the pec, but just wanted to make a note of it here. 
+
 test_data_frame("train", incorrect_msg = "You do not need to add any code to define `install_3`. Please use the code provided.")
 
 msg <- "Have you correctly coded the table? Do not forget to provide the table that "
