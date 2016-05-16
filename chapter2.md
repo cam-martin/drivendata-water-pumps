@@ -362,5 +362,5 @@ test_data_frame("model_forest", columns = "terms",
 test_function("predict", args = "object", eval = FALSE, index = 2,
               incorrect_msg = "When calling `predict()`, you need to provide two arguments here: the random forest object and the test data set.") 
 
-success_msg("Awesome! Now you can submit the results of the random forest by downloading [this csv](https://s3.amazonaws.com/assets.datacamp.com/production/course_1032/datasets/Submission_Water_Pumps.csv) and visiting the [submission page](https://www.drivendata.org/competitions/7/submissions/) for DriveData. You will see the model has an accuracy of 0.80 on the test set. Keep working and climb that leaderboard!")
+success_msg("Awesome! Now you can submit the results of the random forest by downloading [this csv](https://s3.amazonaws.com/assets.datacamp.com/production/course_1032/datasets/Submission_Water_Pumps.csv) and visiting the [submission page](https://www.drivendata.org/competitions/7/submissions/) for DriveData.  The accuracy for the training set is 0.85 but you will see the model has an accuracy of 0.80 on the test set. Keep working and climb that leaderboard!")
 ```
